@@ -8,7 +8,6 @@
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".BundleActivity">
-
     <TextView
         android:text="@string/android_bundle"
         android:textAlignment="center"
@@ -18,7 +17,6 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         />
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -40,7 +38,6 @@
             android:inputType="text"
             />
     </LinearLayout>
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -62,7 +59,6 @@
             android:inputType="text"
             />
     </LinearLayout>
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -84,11 +80,10 @@
             android:inputType="numberSigned"
             />
     </LinearLayout>
-
     <Button
         android:text="@string/submit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="handleSubmit"
         />
-
 </LinearLayout>

@@ -8,7 +8,6 @@
     android:padding="10dp"
     android:orientation="vertical"
     tools:context=".ImplicitIntentActivity">
-
     <TextView
         android:text="@string/implicit_intent"
         android:textAlignment="center"
@@ -18,7 +17,6 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         />
-
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/image_avatar"
         android:layout_width="wrap_content"
@@ -27,12 +25,14 @@
         android:layout_margin="10dp"
         android:src="@drawable/profile_picture"
         />
-
     <Button
         android:text="@string/change_avatar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
+        android:onClick="handleChangeAvatar"
+
+
         />
 
 </LinearLayout>

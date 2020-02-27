@@ -8,33 +8,33 @@
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity">
-
         <Button
             android:id="@+id/button_explicit"
             android:text="@string/explicit_intent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="handleExplicitIntent"
             />
-
         <Button
             android:id="@+id/button_implicit"
             android:text="@string/implicit_intent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="handleImplicitIntent"
             />
-
         <Button
             android:id="@+id/button_bundle"
             android:text="@string/android_bundle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="handleandroidbundle"
             />
-
         <Button
             android:id="@+id/button_parcelable"
             android:text="@string/parcelable"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="handleParcelable"
             />
 
         <Button
@@ -42,6 +42,6 @@
             android:text="@string/exit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="handleExit"
             />
-
 </LinearLayout>
